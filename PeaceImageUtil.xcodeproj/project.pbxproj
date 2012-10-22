@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B04221AE163570FA001FF47A /* introduction in Resources */ = {isa = PBXBuildFile; fileRef = B04221AD163570FA001FF47A /* introduction */; };
+		B0BB8B59162EA017002059E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BB8B58162EA017002059E5 /* UIKit.framework */; };
+		B0BB8B5B162EA017002059E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BB8B5A162EA017002059E5 /* Foundation.framework */; };
+		B0BB8B5D162EA017002059E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BB8B5C162EA017002059E5 /* CoreGraphics.framework */; };
+		B0BB8B63162EA017002059E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0BB8B61162EA017002059E5 /* InfoPlist.strings */; };
+		B0BB8B65162EA017002059E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BB8B64162EA017002059E5 /* main.m */; };
+		B0BB8B69162EA017002059E5 /* peaceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BB8B68162EA017002059E5 /* peaceAppDelegate.m */; };
+		B0BB8B6B162EA017002059E5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BB8B6A162EA017002059E5 /* Default.png */; };
+		B0BB8B6D162EA017002059E5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BB8B6C162EA017002059E5 /* Default@2x.png */; };
+		B0BB8B6F162EA017002059E5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BB8B6E162EA017002059E5 /* Default-568h@2x.png */; };
+		B0BB8B72162EA017002059E5 /* peaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BB8B71162EA017002059E5 /* peaceViewController.m */; };
+		B0BB8B75162EA017002059E5 /* peaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0BB8B73162EA017002059E5 /* peaceViewController.xib */; };
+		B0C4317D16300E5F00283A88 /* PeaceImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C4317C16300E5F00283A88 /* PeaceImageUtil.m */; };
+		B0C4318016300E8900283A88 /* PeaceImageTask.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C4317F16300E8900283A88 /* PeaceImageTask.m */; };
+		B0C4318316300EBF00283A88 /* PeaceGetImgOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C4318216300EBF00283A88 /* PeaceGetImgOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B04221AD163570FA001FF47A /* introduction */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = introduction; sourceTree = "<group>"; };
+		B0BB8B54162EA017002059E5 /* PeaceImageUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeaceImageUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BB8B58162EA017002059E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B0BB8B5A162EA017002059E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B0BB8B5C162EA017002059E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B0BB8B60162EA017002059E5 /* PeaceImageUtil-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeaceImageUtil-Info.plist"; sourceTree = "<group>"; };
+		B0BB8B62162EA017002059E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0BB8B64162EA017002059E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0BB8B66162EA017002059E5 /* PeaceImageUtil-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeaceImageUtil-Prefix.pch"; sourceTree = "<group>"; };
+		B0BB8B67162EA017002059E5 /* peaceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = peaceAppDelegate.h; sourceTree = "<group>"; };
+		B0BB8B68162EA017002059E5 /* peaceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = peaceAppDelegate.m; sourceTree = "<group>"; };
+		B0BB8B6A162EA017002059E5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B0BB8B6C162EA017002059E5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B0BB8B6E162EA017002059E5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B0BB8B70162EA017002059E5 /* peaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = peaceViewController.h; sourceTree = "<group>"; };
+		B0BB8B71162EA017002059E5 /* peaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = peaceViewController.m; sourceTree = "<group>"; };
+		B0BB8B74162EA017002059E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/peaceViewController.xib; sourceTree = "<group>"; };
+		B0C4317B16300E5F00283A88 /* PeaceImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeaceImageUtil.h; sourceTree = "<group>"; };
+		B0C4317C16300E5F00283A88 /* PeaceImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeaceImageUtil.m; sourceTree = "<group>"; };
+		B0C4317E16300E8900283A88 /* PeaceImageTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeaceImageTask.h; sourceTree = "<group>"; };
+		B0C4317F16300E8900283A88 /* PeaceImageTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeaceImageTask.m; sourceTree = "<group>"; };
+		B0C4318116300EBF00283A88 /* PeaceGetImgOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeaceGetImgOperation.h; sourceTree = "<group>"; };
+		B0C4318216300EBF00283A88 /* PeaceGetImgOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeaceGetImgOperation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0BB8B51162EA017002059E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BB8B59162EA017002059E5 /* UIKit.framework in Frameworks */,
+				B0BB8B5B162EA017002059E5 /* Foundation.framework in Frameworks */,
+				B0BB8B5D162EA017002059E5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0BB8B49162EA017002059E5 = {
+			isa = PBXGroup;
+			children = (
+				B0BB8B5E162EA017002059E5 /* PeaceImageUtil */,
+				B0BB8B57162EA017002059E5 /* Frameworks */,
+				B0BB8B55162EA017002059E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0BB8B55162EA017002059E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0BB8B54162EA017002059E5 /* PeaceImageUtil.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0BB8B57162EA017002059E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0BB8B58162EA017002059E5 /* UIKit.framework */,
+				B0BB8B5A162EA017002059E5 /* Foundation.framework */,
+				B0BB8B5C162EA017002059E5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0BB8B5E162EA017002059E5 /* PeaceImageUtil */ = {
+			isa = PBXGroup;
+			children = (
+				B0BB8B67162EA017002059E5 /* peaceAppDelegate.h */,
+				B0BB8B68162EA017002059E5 /* peaceAppDelegate.m */,
+				B0BB8B70162EA017002059E5 /* peaceViewController.h */,
+				B0BB8B71162EA017002059E5 /* peaceViewController.m */,
+				B0BB8B73162EA017002059E5 /* peaceViewController.xib */,
+				B0C4317916300E5F00283A88 /* peaceimage */,
+				B0BB8B5F162EA017002059E5 /* Supporting Files */,
+				B04221AD163570FA001FF47A /* introduction */,
+			);
+			path = PeaceImageUtil;
+			sourceTree = "<group>";
+		};
+		B0BB8B5F162EA017002059E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0BB8B60162EA017002059E5 /* PeaceImageUtil-Info.plist */,
+				B0BB8B61162EA017002059E5 /* InfoPlist.strings */,
+				B0BB8B64162EA017002059E5 /* main.m */,
+				B0BB8B66162EA017002059E5 /* PeaceImageUtil-Prefix.pch */,
+				B0BB8B6A162EA017002059E5 /* Default.png */,
+				B0BB8B6C162EA017002059E5 /* Default@2x.png */,
+				B0BB8B6E162EA017002059E5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0C4317916300E5F00283A88 /* peaceimage */ = {
+			isa = PBXGroup;
+			children = (
+				B0C4317A16300E5F00283A88 /* imagetool */,
+				B0C4317B16300E5F00283A88 /* PeaceImageUtil.h */,
+				B0C4317C16300E5F00283A88 /* PeaceImageUtil.m */,
+			);
+			path = peaceimage;
+			sourceTree = "<group>";
+		};
+		B0C4317A16300E5F00283A88 /* imagetool */ = {
+			isa = PBXGroup;
+			children = (
+				B0C4317E16300E8900283A88 /* PeaceImageTask.h */,
+				B0C4317F16300E8900283A88 /* PeaceImageTask.m */,
+				B0C4318116300EBF00283A88 /* PeaceGetImgOperation.h */,
+				B0C4318216300EBF00283A88 /* PeaceGetImgOperation.m */,
+			);
+			path = imagetool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0BB8B53162EA017002059E5 /* PeaceImageUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0BB8B78162EA017002059E5 /* Build configuration list for PBXNativeTarget "PeaceImageUtil" */;
+			buildPhases = (
+				B0BB8B50162EA017002059E5 /* Sources */,
+				B0BB8B51162EA017002059E5 /* Frameworks */,
+				B0BB8B52162EA017002059E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeaceImageUtil;
+			productName = PeaceImageUtil;
+			productReference = B0BB8B54162EA017002059E5 /* PeaceImageUtil.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0BB8B4B162EA017002059E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = peace;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = zhaoyp;
+			};
+			buildConfigurationList = B0BB8B4E162EA017002059E5 /* Build configuration list for PBXProject "PeaceImageUtil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0BB8B49162EA017002059E5;
+			productRefGroup = B0BB8B55162EA017002059E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0BB8B53162EA017002059E5 /* PeaceImageUtil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0BB8B52162EA017002059E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BB8B63162EA017002059E5 /* InfoPlist.strings in Resources */,
+				B0BB8B6B162EA017002059E5 /* Default.png in Resources */,
+				B0BB8B6D162EA017002059E5 /* Default@2x.png in Resources */,
+				B0BB8B6F162EA017002059E5 /* Default-568h@2x.png in Resources */,
+				B0BB8B75162EA017002059E5 /* peaceViewController.xib in Resources */,
+				B04221AE163570FA001FF47A /* introduction in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0BB8B50162EA017002059E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BB8B65162EA017002059E5 /* main.m in Sources */,
+				B0BB8B69162EA017002059E5 /* peaceAppDelegate.m in Sources */,
+				B0BB8B72162EA017002059E5 /* peaceViewController.m in Sources */,
+				B0C4317D16300E5F00283A88 /* PeaceImageUtil.m in Sources */,
+				B0C4318016300E8900283A88 /* PeaceImageTask.m in Sources */,
+				B0C4318316300EBF00283A88 /* PeaceGetImgOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0BB8B61162EA017002059E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0BB8B62162EA017002059E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B0BB8B73162EA017002059E5 /* peaceViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0BB8B74162EA017002059E5 /* en */,
+			);
+			name = peaceViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0BB8B76162EA017002059E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0BB8B77162EA017002059E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0BB8B79162EA017002059E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeaceImageUtil/PeaceImageUtil-Prefix.pch";
+				INFOPLIST_FILE = "PeaceImageUtil/PeaceImageUtil-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B0BB8B7A162EA017002059E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeaceImageUtil/PeaceImageUtil-Prefix.pch";
+				INFOPLIST_FILE = "PeaceImageUtil/PeaceImageUtil-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0BB8B4E162EA017002059E5 /* Build configuration list for PBXProject "PeaceImageUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BB8B76162EA017002059E5 /* Debug */,
+				B0BB8B77162EA017002059E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0BB8B78162EA017002059E5 /* Build configuration list for PBXNativeTarget "PeaceImageUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BB8B79162EA017002059E5 /* Debug */,
+				B0BB8B7A162EA017002059E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0BB8B4B162EA017002059E5 /* Project object */;
+}

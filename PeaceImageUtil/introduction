@@ -1,0 +1,6 @@
+PeaceImageUtil是一个图片管理工具，主要有以下特性：
+1.智能下载图片，只需要提供url，自动在子线程中下载图片。同时，还可以控制下载图片的子线程个数（默认为4个）。
+    该功能使用方法：   a.在ViewController的头文件中添加#import "PeaceImageUtil.h"，ViewController实现PeaceImageUtilProtocol
+                    b.在ViewController实现文件中实现PeaceImageUtilProtoco的两个方法：  
+       - (void) loadImgSuccessWithImg:(UIImage*)img WithDelegate:(id<PeaceImageUtilProtocol>)delegate withUrl:(NSString*)url和- (void) loadImgFailedWithDelegate:(id<PeaceImageUtilProtocol>)delegate withUrl:(NSString*)url；
+                    c.通过以下代码下载图片    PeaceImageUtil* imgUtil = [PeaceImageUtil sharedInstance]; [imgUtil requestImgWithUrl:url forDelegate:self];
