@@ -29,6 +29,7 @@
 
 +(id) sharedInstance;
 
+//download image
 - (void) requestImgWithUrl:(NSString*)url forDelegate:(id<PeaceImageUtilProtocol>)delegate;
 
 - (NSString*) imgCacheDirectory;
